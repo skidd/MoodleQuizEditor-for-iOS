@@ -13,7 +13,7 @@
 		2274C5131A2503C300BB04B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2274C5121A2503C300BB04B4 /* Images.xcassets */; };
 		2274C5161A2503C300BB04B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2274C5141A2503C300BB04B4 /* LaunchScreen.xib */; };
 		2274C5221A2503C300BB04B4 /* Moodle_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274C5211A2503C300BB04B4 /* Moodle_QuizTests.swift */; };
-		2285CFFE1B0A154800EB9F9C /* FileSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285CFFD1B0A154800EB9F9C /* FileSave.swift */; };
+		2285D0001B0A3D8500EB9F9C /* FileSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285CFFF1B0A3D8500EB9F9C /* FileSave.swift */; };
 		228CD3891A2739CF00B6129A /* SelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD3881A2739CF00B6129A /* SelectTableViewController.swift */; };
 		228CD38B1A273A1000B6129A /* NewEssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD38A1A273A1000B6129A /* NewEssayViewController.swift */; };
 		228CD38D1A273A2500B6129A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD38C1A273A2500B6129A /* ContainerViewController.swift */; };
@@ -51,7 +51,7 @@
 		2274C51B1A2503C300BB04B4 /* Moodle QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moodle QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274C5201A2503C300BB04B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2274C5211A2503C300BB04B4 /* Moodle_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodle_QuizTests.swift; sourceTree = "<group>"; };
-		2285CFFD1B0A154800EB9F9C /* FileSave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSave.swift; path = "Moodle Quiz/FileSave.swift"; sourceTree = "<group>"; };
+		2285CFFF1B0A3D8500EB9F9C /* FileSave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSave.swift; sourceTree = "<group>"; };
 		228CD3881A2739CF00B6129A /* SelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewController.swift; sourceTree = "<group>"; };
 		228CD38A1A273A1000B6129A /* NewEssayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEssayViewController.swift; sourceTree = "<group>"; };
 		228CD38C1A273A2500B6129A /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				22DF97741A795F0900D4822C /* SQLiteDB.swift */,
-				2285CFFD1B0A154800EB9F9C /* FileSave.swift */,
+				2285CFFF1B0A3D8500EB9F9C /* FileSave.swift */,
 				22D8AF771B081B430068E228 /* AEXML.swift */,
 				22DF97751A795F0900D4822C /* String-Extras.swift */,
 			);
@@ -301,10 +301,10 @@
 				22DF97761A795F0900D4822C /* SQLiteDB.swift in Sources */,
 				2274C50C1A2503C300BB04B4 /* AppDelegate.swift in Sources */,
 				2228207D1AC3704900F51052 /* NewMultiViewController.swift in Sources */,
-				2285CFFE1B0A154800EB9F9C /* FileSave.swift in Sources */,
 				22DF97771A795F0900D4822C /* String-Extras.swift in Sources */,
 				228CD38D1A273A2500B6129A /* ContainerViewController.swift in Sources */,
 				22D8AF781B081B430068E228 /* AEXML.swift in Sources */,
+				2285D0001B0A3D8500EB9F9C /* FileSave.swift in Sources */,
 				228CD3891A2739CF00B6129A /* SelectTableViewController.swift in Sources */,
 				228CD38B1A273A1000B6129A /* NewEssayViewController.swift in Sources */,
 				22A84CA01AF1D46A00623F82 /* NewTfViewController.swift in Sources */,

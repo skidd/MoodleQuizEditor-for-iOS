@@ -116,6 +116,7 @@ class SelectTableViewController: UITableViewController, UITableViewDelegate, UIT
         else if(selectRowType == 2){selectSegue = "idEditTf"}
         
     }
+    
     @IBAction func exportButton(sender:AnyObject) {
         let exportMoodle = AEXMLDocument()
         

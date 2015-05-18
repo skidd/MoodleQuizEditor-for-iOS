@@ -49,9 +49,10 @@ class NewEssayViewController: UIViewController,UITextFieldDelegate  {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-        override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "idSelectViewController"{println("segue")}
-        }
+    }
 
     func editMode(selectRowId:Int) 
     {
@@ -104,12 +105,7 @@ class NewEssayViewController: UIViewController,UITextFieldDelegate  {
         return true
     }
     
-    func loadControl()
-    {
-       
-            questionName.text = "hi"
-        
-    }
+
     
     
 }
