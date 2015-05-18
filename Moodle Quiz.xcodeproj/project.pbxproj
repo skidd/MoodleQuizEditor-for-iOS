@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2228207D1AC3704900F51052 /* NewMultiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228207C1AC3704900F51052 /* NewMultiViewController.swift */; };
+		22702E891A8C6510001C3EE4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22702E881A8C6510001C3EE4 /* libsqlite3.dylib */; };
+		2274C50C1A2503C300BB04B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274C50B1A2503C300BB04B4 /* AppDelegate.swift */; };
+		2274C5131A2503C300BB04B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2274C5121A2503C300BB04B4 /* Images.xcassets */; };
+		2274C5161A2503C300BB04B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2274C5141A2503C300BB04B4 /* LaunchScreen.xib */; };
+		2274C5221A2503C300BB04B4 /* Moodle_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274C5211A2503C300BB04B4 /* Moodle_QuizTests.swift */; };
+		228CD3891A2739CF00B6129A /* SelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD3881A2739CF00B6129A /* SelectTableViewController.swift */; };
+		228CD38B1A273A1000B6129A /* NewEssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD38A1A273A1000B6129A /* NewEssayViewController.swift */; };
+		228CD38D1A273A2500B6129A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CD38C1A273A2500B6129A /* ContainerViewController.swift */; };
+		228CD3911A285D3800B6129A /* questions-id-Default for id-20141126-0441.xml in Resources */ = {isa = PBXBuildFile; fileRef = 228CD3901A285D3800B6129A /* questions-id-Default for id-20141126-0441.xml */; };
+		22A84C9E1AF19AAE00623F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A84C9C1AF19AAE00623F82 /* Main.storyboard */; };
+		22A84CA01AF1D46A00623F82 /* NewTfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A84C9F1AF1D46A00623F82 /* NewTfViewController.swift */; };
+		22B2CC6D1AEFFBE50000F920 /* data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 22E7445B1AA8A1F80039935C /* data.sqlite */; };
+		22B2CC6F1AEFFE7C0000F920 /* Launch-Image-W2048-slogen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B2CC6E1AEFFE7C0000F920 /* Launch-Image-W2048-slogen-1.png */; };
+		22B2CC711AF002BE0000F920 /* Lauch-Image-L2048-slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B2CC701AF002BE0000F920 /* Lauch-Image-L2048-slogan.png */; };
+		22B2CC731AF004550000F920 /* howdygraduate-cut-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B2CC721AF004550000F920 /* howdygraduate-cut-1024.png */; };
+		22D8AF781B081B430068E228 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8AF771B081B430068E228 /* AEXML.swift */; };
+		22DF97761A795F0900D4822C /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF97741A795F0900D4822C /* SQLiteDB.swift */; };
+		22DF97771A795F0900D4822C /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF97751A795F0900D4822C /* String-Extras.swift */; };
+		22EDC8A71B08438E00B078D7 /* FileSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC8A61B08438E00B078D7 /* FileSave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2274C51C1A2503C300BB04B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2274C4FE1A2503C300BB04B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2274C5051A2503C300BB04B4;
+			remoteInfo = "Moodle Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2228207C1AC3704900F51052 /* NewMultiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMultiViewController.swift; sourceTree = "<group>"; };
+		224F4CBE1A7BCF2700B230DD /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		22702E881A8C6510001C3EE4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2274C5061A2503C300BB04B4 /* Moodle Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moodle Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2274C50A1A2503C300BB04B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2274C50B1A2503C300BB04B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Moodle Quiz/AppDelegate.swift"; sourceTree = "<group>"; };
+		2274C5121A2503C300BB04B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2274C5151A2503C300BB04B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2274C51B1A2503C300BB04B4 /* Moodle QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moodle QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2274C5201A2503C300BB04B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2274C5211A2503C300BB04B4 /* Moodle_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodle_QuizTests.swift; sourceTree = "<group>"; };
+		228CD3881A2739CF00B6129A /* SelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewController.swift; sourceTree = "<group>"; };
+		228CD38A1A273A1000B6129A /* NewEssayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEssayViewController.swift; sourceTree = "<group>"; };
+		228CD38C1A273A2500B6129A /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		228CD3901A285D3800B6129A /* questions-id-Default for id-20141126-0441.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "questions-id-Default for id-20141126-0441.xml"; sourceTree = "<group>"; };
+		22A84C9D1AF19AAE00623F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A84C9F1AF1D46A00623F82 /* NewTfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTfViewController.swift; sourceTree = "<group>"; };
+		22B2CC6E1AEFFE7C0000F920 /* Launch-Image-W2048-slogen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Launch-Image-W2048-slogen-1.png"; path = "Images.xcassets/LaunchImage.launchimage/Launch-Image-W2048-slogen-1.png"; sourceTree = "<group>"; };
+		22B2CC701AF002BE0000F920 /* Lauch-Image-L2048-slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lauch-Image-L2048-slogan.png"; path = "Images.xcassets/LaunchImage.launchimage/Lauch-Image-L2048-slogan.png"; sourceTree = "<group>"; };
+		22B2CC721AF004550000F920 /* howdygraduate-cut-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "howdygraduate-cut-1024.png"; sourceTree = "<group>"; };
+		22BC19DE1AEDC09800B39BBB /* Moodle Quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Moodle Quiz.entitlements"; sourceTree = "<group>"; };
+		22D8AF771B081B430068E228 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEXML.swift; path = "Moodle Quiz/AEXML.swift"; sourceTree = "<group>"; };
+		22DF976B1A75A2CA00D4822C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		22DF97741A795F0900D4822C /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = "Moodle Quiz/SQLiteDB.swift"; sourceTree = "<group>"; };
+		22DF97751A795F0900D4822C /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "Moodle Quiz/String-Extras.swift"; sourceTree = "<group>"; };
+		22E7445B1AA8A1F80039935C /* data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.sqlite; sourceTree = "<group>"; };
+		22EDC8A61B08438E00B078D7 /* FileSave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2274C5031A2503C300BB04B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22702E891A8C6510001C3EE4 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2274C5181A2503C300BB04B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2228207B1AC36E7A00F51052 /* NewQuestionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2228207C1AC3704900F51052 /* NewMultiViewController.swift */,
+				22A84C9F1AF1D46A00623F82 /* NewTfViewController.swift */,
+				228CD38A1A273A1000B6129A /* NewEssayViewController.swift */,
+			);
+			name = NewQuestionViewController;
+			sourceTree = "<group>";
+		};
+		224F4CBB1A79BC5800B230DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22702E881A8C6510001C3EE4 /* libsqlite3.dylib */,
+				22DF976B1A75A2CA00D4822C /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			path = "Moodle Quiz";
+			sourceTree = "<group>";
+		};
+		224F4CBC1A79BC8400B230DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2274C5121A2503C300BB04B4 /* Images.xcassets */,
+				228CD3901A285D3800B6129A /* questions-id-Default for id-20141126-0441.xml */,
+				2274C50A1A2503C300BB04B4 /* Info.plist */,
+				22B2CC6E1AEFFE7C0000F920 /* Launch-Image-W2048-slogen-1.png */,
+				22B2CC701AF002BE0000F920 /* Lauch-Image-L2048-slogan.png */,
+				22B2CC721AF004550000F920 /* howdygraduate-cut-1024.png */,
+			);
+			name = Resources;
+			path = "Moodle Quiz";
+			sourceTree = "<group>";
+		};
+		2274C4FD1A2503C300BB04B4 = {
+			isa = PBXGroup;
+			children = (
+				2274C5081A2503C300BB04B4 /* Moodle Quiz */,
+				224F4CBB1A79BC5800B230DD /* Frameworks */,
+				22DF97731A795EE400D4822C /* Third Party */,
+				2274C51E1A2503C300BB04B4 /* Moodle QuizTests */,
+				2274C5071A2503C300BB04B4 /* Products */,
+				224F4CBC1A79BC8400B230DD /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		2274C5071A2503C300BB04B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2274C5061A2503C300BB04B4 /* Moodle Quiz.app */,
+				2274C51B1A2503C300BB04B4 /* Moodle QuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2274C5081A2503C300BB04B4 /* Moodle Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				22BC19DE1AEDC09800B39BBB /* Moodle Quiz.entitlements */,
+				22A84C9C1AF19AAE00623F82 /* Main.storyboard */,
+				224F4CBE1A7BCF2700B230DD /* Bridging-Header.h */,
+				228CD3881A2739CF00B6129A /* SelectTableViewController.swift */,
+				2228207B1AC36E7A00F51052 /* NewQuestionViewController */,
+				228CD38C1A273A2500B6129A /* ContainerViewController.swift */,
+			);
+			path = "Moodle Quiz";
+			sourceTree = "<group>";
+		};
+		2274C51E1A2503C300BB04B4 /* Moodle QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				2274C5211A2503C300BB04B4 /* Moodle_QuizTests.swift */,
+				2274C51F1A2503C300BB04B4 /* Supporting Files */,
+			);
+			path = "Moodle QuizTests";
+			sourceTree = "<group>";
+		};
+		2274C51F1A2503C300BB04B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2274C50B1A2503C300BB04B4 /* AppDelegate.swift */,
+				22E7445B1AA8A1F80039935C /* data.sqlite */,
+				2274C5141A2503C300BB04B4 /* LaunchScreen.xib */,
+				2274C5201A2503C300BB04B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22DF97731A795EE400D4822C /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				22DF97741A795F0900D4822C /* SQLiteDB.swift */,
+				22EDC8A61B08438E00B078D7 /* FileSave.swift */,
+				22D8AF771B081B430068E228 /* AEXML.swift */,
+				22DF97751A795F0900D4822C /* String-Extras.swift */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2274C5051A2503C300BB04B4 /* Moodle Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2274C5251A2503C300BB04B4 /* Build configuration list for PBXNativeTarget "Moodle Quiz" */;
+			buildPhases = (
+				2274C5021A2503C300BB04B4 /* Sources */,
+				2274C5031A2503C300BB04B4 /* Frameworks */,
+				2274C5041A2503C300BB04B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moodle Quiz";
+			productName = "Moodle Quiz";
+			productReference = 2274C5061A2503C300BB04B4 /* Moodle Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2274C51A1A2503C300BB04B4 /* Moodle QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2274C5281A2503C300BB04B4 /* Build configuration list for PBXNativeTarget "Moodle QuizTests" */;
+			buildPhases = (
+				2274C5171A2503C300BB04B4 /* Sources */,
+				2274C5181A2503C300BB04B4 /* Frameworks */,
+				2274C5191A2503C300BB04B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2274C51D1A2503C300BB04B4 /* PBXTargetDependency */,
+			);
+			name = "Moodle QuizTests";
+			productName = "Moodle QuizTests";
+			productReference = 2274C51B1A2503C300BB04B4 /* Moodle QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2274C4FE1A2503C300BB04B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Haolin Zou";
+				TargetAttributes = {
+					2274C5051A2503C300BB04B4 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 27F4EL7D63;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					2274C51A1A2503C300BB04B4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2274C5051A2503C300BB04B4;
+					};
+				};
+			};
+			buildConfigurationList = 2274C5011A2503C300BB04B4 /* Build configuration list for PBXProject "Moodle Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2274C4FD1A2503C300BB04B4;
+			productRefGroup = 2274C5071A2503C300BB04B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2274C5051A2503C300BB04B4 /* Moodle Quiz */,
+				2274C51A1A2503C300BB04B4 /* Moodle QuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2274C5041A2503C300BB04B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B2CC711AF002BE0000F920 /* Lauch-Image-L2048-slogan.png in Resources */,
+				22B2CC6D1AEFFBE50000F920 /* data.sqlite in Resources */,
+				22B2CC731AF004550000F920 /* howdygraduate-cut-1024.png in Resources */,
+				22A84C9E1AF19AAE00623F82 /* Main.storyboard in Resources */,
+				22B2CC6F1AEFFE7C0000F920 /* Launch-Image-W2048-slogen-1.png in Resources */,
+				2274C5161A2503C300BB04B4 /* LaunchScreen.xib in Resources */,
+				2274C5131A2503C300BB04B4 /* Images.xcassets in Resources */,
+				228CD3911A285D3800B6129A /* questions-id-Default for id-20141126-0441.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2274C5191A2503C300BB04B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2274C5021A2503C300BB04B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DF97761A795F0900D4822C /* SQLiteDB.swift in Sources */,
+				2274C50C1A2503C300BB04B4 /* AppDelegate.swift in Sources */,
+				2228207D1AC3704900F51052 /* NewMultiViewController.swift in Sources */,
+				22DF97771A795F0900D4822C /* String-Extras.swift in Sources */,
+				228CD38D1A273A2500B6129A /* ContainerViewController.swift in Sources */,
+				22D8AF781B081B430068E228 /* AEXML.swift in Sources */,
+				22EDC8A71B08438E00B078D7 /* FileSave.swift in Sources */,
+				228CD3891A2739CF00B6129A /* SelectTableViewController.swift in Sources */,
+				228CD38B1A273A1000B6129A /* NewEssayViewController.swift in Sources */,
+				22A84CA01AF1D46A00623F82 /* NewTfViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2274C5171A2503C300BB04B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2274C5221A2503C300BB04B4 /* Moodle_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2274C51D1A2503C300BB04B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2274C5051A2503C300BB04B4 /* Moodle Quiz */;
+			targetProxy = 2274C51C1A2503C300BB04B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2274C5141A2503C300BB04B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2274C5151A2503C300BB04B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "../Moodle Quiz";
+			sourceTree = "<group>";
+		};
+		22A84C9C1AF19AAE00623F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A84C9D1AF19AAE00623F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2274C5231A2503C300BB04B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2274C5241A2503C300BB04B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2274C5261A2503C300BB04B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Moodle Quiz/Moodle Quiz.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Moodle Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodle Quiz/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2274C5271A2503C300BB04B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Moodle Quiz/Moodle Quiz.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Moodle Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodle Quiz/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2274C5291A2503C300BB04B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moodle QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodle Quiz.app/Moodle Quiz";
+			};
+			name = Debug;
+		};
+		2274C52A1A2503C300BB04B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moodle QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodle Quiz.app/Moodle Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2274C5011A2503C300BB04B4 /* Build configuration list for PBXProject "Moodle Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2274C5231A2503C300BB04B4 /* Debug */,
+				2274C5241A2503C300BB04B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2274C5251A2503C300BB04B4 /* Build configuration list for PBXNativeTarget "Moodle Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2274C5261A2503C300BB04B4 /* Debug */,
+				2274C5271A2503C300BB04B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2274C5281A2503C300BB04B4 /* Build configuration list for PBXNativeTarget "Moodle QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2274C5291A2503C300BB04B4 /* Debug */,
+				2274C52A1A2503C300BB04B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2274C4FE1A2503C300BB04B4 /* Project object */;
+}
