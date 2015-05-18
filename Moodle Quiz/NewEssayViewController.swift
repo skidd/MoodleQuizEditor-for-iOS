@@ -1,5 +1,4 @@
 //
-//  MainViewController.swift
 //  Moodle Quiz
 //
 //  Created by SamsonZouPro on 14/11/27.
@@ -9,8 +8,6 @@
 import UIKit
 
 class NewEssayViewController: UIViewController,UITextFieldDelegate  {
-    //@IBOutlet weak var mainView: UIView!
-    // might be problems
     
     var data = [SQLRow]()
     let db = SQLiteDB.sharedInstance()
@@ -38,9 +35,7 @@ class NewEssayViewController: UIViewController,UITextFieldDelegate  {
     override func viewDidLoad() {
         super.viewDidLoad()
         questionName.delegate = self
-        //questionText.delegate = self
         questionMark.delegate = self
-        // Do any additional setup after loading the view.
         var myColor : UIColor = UIColor( red: 204/255, green: 204/255, blue:204/255, alpha: 1.0 )
         questionName.layer.borderColor = myColor.CGColor
         questionName.layer.borderWidth = 1.0
@@ -63,7 +58,6 @@ class NewEssayViewController: UIViewController,UITextFieldDelegate  {
         editting = 1
         let data = db.query("SELECT * FROM quizs WHERE id='\(selectRowId)'")
         let row = data[0]
-        //let result = db.execute("Select FROM quizs WHERE id='\(selectRowId)'")
         if var name = row["name"] {tempName = name.asString()}
         if var text = row["text"] {tempText = text.asString()}
         if var mark = row["mark"] {tempMark = mark.asString()}
